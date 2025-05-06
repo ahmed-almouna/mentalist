@@ -148,7 +148,7 @@ class MainWindow(Tk.Frame):
         self.master.withdraw() # hide the main window until it is centered
         w = self.master.winfo_screenwidth()
         h = self.master.winfo_screenheight()
-        size = tuple(int(_) for _ in self.master.geometry().split('+')[0].split('x'))
+        size = [(int(_) for _ in self.master.geometry().split('+')[0].split('x')]
         x = w/2 - size[0]/2
         
         margins = (h-height) / 2
@@ -387,7 +387,7 @@ def word_count_to_string(words):
     '''Get a string representation of the word count
     '''
     if isinstance(words, int):
-        words = locale.format("%d", words, grouping=True) # add commas
+        words = locale.format_string("%d", words, grouping=True) # add commas
     return words
 
 
