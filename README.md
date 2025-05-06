@@ -4,20 +4,19 @@
 [![sc0tfree Twitter](http://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/sc0tfree)
 
 # Mentalist
-<p align="center">
-  <img src="https://sc0tfree.squarespace.com/s/Mentalist-logo-250px.png" alt="Logo"/>
-</p>
+
+
+This fork addresses compatibility issues with Python 3.13.2 and above, caused by deprecated function usage.
+
+***
+
+<br>
 <br>
 
 Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist as well as rules compatible with [Hashcat](https://hashcat.net/hashcat) and [John the Ripper](http://www.openwall.com/john).
 <br>
 
 For more information on installing and using Mentalist, please **[visit the wiki](https://www.github.com/sc0tfree/mentalist/wiki)**.
-
-<br>
-<p align="center">
-  <img src="https://sc0tfree.squarespace.com/s/mentalist-readme-gui.gif" alt="Mentalist GUI"/>
-</p>
 
 To get up and running quickly, download a prebuilt executable on the [releases page](https://github.com/sc0tfree/mentalist/releases).
 
